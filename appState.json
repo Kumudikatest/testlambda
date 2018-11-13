@@ -1,0 +1,90 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "07e9ac34-f7c7-40db-8097-d49334a5416a": {
+        "id": "07e9ac34-f7c7-40db-8097-d49334a5416a",
+        "parent": null,
+        "name": "testlambda",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "4b9f4567-f67c-4b91-8f99-af51050fba72",
+          "3c96cbe9-6f79-4a65-8d5d-1107dadbbed3"
+        ],
+        "isRemovable": false,
+        "filePath": "testlambda"
+      },
+      "4b9f4567-f67c-4b91-8f99-af51050fba72": {
+        "id": "4b9f4567-f67c-4b91-8f99-af51050fba72",
+        "parent": "07e9ac34-f7c7-40db-8097-d49334a5416a",
+        "name": "lambda.js",
+        "type": "LAMBDA_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "testlambda/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "triggers": [],
+        "config": {
+          "runtime": "nodejs8.10",
+          "timeout": 60,
+          "memory": 128
+        }
+      },
+      "3c96cbe9-6f79-4a65-8d5d-1107dadbbed3": {
+        "id": "3c96cbe9-6f79-4a65-8d5d-1107dadbbed3",
+        "parent": "07e9ac34-f7c7-40db-8097-d49334a5416a",
+        "name": "&.,.js",
+        "type": "LAMBDA_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "testlambda/&.,.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "triggers": [],
+        "config": {
+          "runtime": "nodejs8.10",
+          "timeout": 60,
+          "memory": 128
+        }
+      }
+    },
+    "deletedFiles": [],
+    "rootNode": "07e9ac34-f7c7-40db-8097-d49334a5416a",
+    "openFiles": [
+      "4b9f4567-f67c-4b91-8f99-af51050fba72",
+      "3c96cbe9-6f79-4a65-8d5d-1107dadbbed3"
+    ],
+    "currentFileId": "3c96cbe9-6f79-4a65-8d5d-1107dadbbed3",
+    "resources": {},
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    },
+    "lambdaId": "4b9f4567-f67c-4b91-8f99-af51050fba72"
+  },
+  "PROJECT_META": {
+    "projectName": "testlambda",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "lastSave": 1542085408388
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "testlambda",
+      "url": "https://github.com/Kumudikatest/testlambda"
+    }
+  }
+}
